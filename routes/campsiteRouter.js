@@ -1,7 +1,7 @@
 const express = require("express");
 const Campsite = require("../models/campsite");
 const authenticate = require("../authenticate");
-
+// Workshop 3 working
 const campsiteRouter = express.Router();
 
 campsiteRouter
