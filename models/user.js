@@ -10,7 +10,8 @@ const userSchema = new Schema({
 	lastname: {
 		type: String,
 		default: "",
-	},
+  },
+  facebookId: String,
 	// username and password will be taking care by passport
 	admin: {
 		type: Boolean,
